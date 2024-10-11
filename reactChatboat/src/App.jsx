@@ -10,7 +10,7 @@ function App() {
   async function generateAnswer(){
     const response=await axios({
       
-      url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyA4h1rABJoFFeETgbRxfRHvvDeXbVzdY38"
+      url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=Apikey"
       ,
       method: 'POST',
       data: {
